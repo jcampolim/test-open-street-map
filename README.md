@@ -11,3 +11,5 @@
 - <a href="https://stackoverflow.com/questions/73331688/how-to-use-svg-component-in-react-leaflet">Routing</a>
 
 - <a href="https://leaflet-extras.github.io/leaflet-providers/preview/#filter=Stadia.Outdoors">Map style</a>
+
+- <a href="https://leaflet-extras.github.io/leaflet-providers/preview/">Tiles provider</a>

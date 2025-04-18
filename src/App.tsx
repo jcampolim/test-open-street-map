@@ -1,5 +1,5 @@
 import "./App.css";
-import Map from "./Map";
+import Map from "./map/Map";
 
 export default function App() {
   return (
