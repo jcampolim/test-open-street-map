@@ -1,5 +1,6 @@
-import { MapContainer, TileLayer } from "react-leaflet";
+import { MapContainer, Popup, TileLayer } from "react-leaflet";
 import Buildings from "./buildings/buildings";
+import BathroomMarker from "./custom-marker/bathroom-marker";
 
 export default function Map() {
     return (
@@ -10,6 +11,9 @@ export default function Map() {
                 minZoom={15}
             />
             <Buildings />
+            <BathroomMarker position={[-23.547271, -46.651813]}>
+                <Popup>This is a custom marker popup</Popup>
+            </BathroomMarker>
         </MapContainer>
     );
 }

@@ -1,6 +1,6 @@
 import { Polygon } from "react-leaflet";
 import Mapa from "./mapa";
-import Colors from "./categories/mackenzie"
+import Colors from "../categories/mackenzie"
 
 export default function Buildings() {
     const bounds: { bounds: [number, number][], name: string }[] = Mapa;
