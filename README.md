@@ -13,3 +13,5 @@
 - <a href="https://leaflet-extras.github.io/leaflet-providers/preview/#filter=Stadia.Outdoors">Map style</a>
 
 - <a href="https://leaflet-extras.github.io/leaflet-providers/preview/">Tiles provider</a>
+
+- <a href="https://www.svgrepo.com/svg/244189/bathroom-restroom?edit=true">SVG Icons</a>

@@ -1,5 +1,5 @@
 import { Polygon } from "react-leaflet";
-import Mapa from "./mapa";
+import { Mapa } from "./mapa";
 import Colors from "../categories/mackenzie"
 
 export default function Buildings() {
