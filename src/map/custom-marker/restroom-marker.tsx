@@ -8,7 +8,7 @@ interface CustomMarkerProps {
   children: React.ReactNode;
 }
 
-const BathroomMarker: React.FC<CustomMarkerProps> = ({ position, children }) => {
+const RestroomMarker: React.FC<CustomMarkerProps> = ({ position, children }) => {
     const customIcon = L.divIcon({
         html: `
             <svg 
@@ -79,4 +79,4 @@ const BathroomMarker: React.FC<CustomMarkerProps> = ({ position, children }) => 
     );
 };
 
-export default BathroomMarker;
+export default RestroomMarker;
