@@ -329,7 +329,7 @@ export const Mapa: { bounds: [number, number][], name: string }[] = [
             [-23.547897274793783, -46.65038453896687],
             [-23.547749743598054, -46.650563576407876]
         ],
-        name: "40",
+        name: "41",
     },
     {
         bounds: [
@@ -524,6 +524,17 @@ export const Mapa: { bounds: [number, number][], name: string }[] = [
         name: "E44",
     },
 ];
+
+export const Caminhos: { positions: [number, number][], name: string }[] = [
+    {
+        positions: [
+            [-23.546491208889204, -46.65304494207603],
+            [-23.545510596358294, -46.65214579167564],
+            [-23.546233509923475, -46.65121238300258]
+        ],
+        name: "P02 - P03"
+    },
+]
 
 export const Banheiros: { position: [number, number], name: string }[] = [
     {

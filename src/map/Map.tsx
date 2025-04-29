@@ -1,8 +1,10 @@
-import { MapContainer, TileLayer } from "react-leaflet";
+import { MapContainer, Polyline, TileLayer } from "react-leaflet";
 import Buildings from "./buildings/buildings";
 import { useState } from "react";
 import Restrooms from "./buildings/restrooms";
 import Restaurants from "./buildings/restaurants";
+import Edges from "./buildings/edges";
+import Transports from "./buildings/transport";
 
 export default function Map() {
     const [ showRestroom, setShowRestroom ] = useState(true);
@@ -16,6 +18,8 @@ export default function Map() {
                 minZoom={17.5}
             />
             <Buildings />
+            <Edges />
+            <Transports />
             {
                 showRestroom && <Restrooms />
             }

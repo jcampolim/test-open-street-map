@@ -128,7 +128,7 @@ const Colors: { name: string, color: string }[] = [
     },
     {
         color: institucional,
-        name: "40",
+        name: "41",
     },
     {
         color: pionerismo_e_inovacao,
