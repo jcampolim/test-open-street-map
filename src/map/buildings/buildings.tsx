@@ -1,4 +1,4 @@
-import { Polygon, SVGOverlay, Tooltip } from "react-leaflet";
+import { Polygon, SVGOverlay } from "react-leaflet";
 import { Mapa } from "./mapa";
 import Colors from "../categories/mackenzie"
 
