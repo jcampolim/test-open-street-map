@@ -18,7 +18,6 @@ export default function Map() {
                 minZoom={17.5}
             />
             <Buildings />
-            <Edges />
             <Transports />
             {
                 showRestroom && <Restrooms />

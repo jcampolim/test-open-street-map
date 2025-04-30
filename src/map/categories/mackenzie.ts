@@ -1,9 +1,9 @@
-const educacao_basica = "#FB811D";
-const historia_tradicao_e_cultura = "#BDD634";
-const institucional = "#EF1827";
-const pionerismo_e_inovacao = "#027AC1";
-const predio_externo = "#6B2995"
-const tecnologia_e_saude = "#02B0CA";
+const educacao_basica = "#F2A160";
+const historia_tradicao_e_cultura = "#EFD456";
+const institucional = "#F24547";
+const pionerismo_e_inovacao = "#48B0EA";
+const predio_externo = "#8249A6"
+const tecnologia_e_saude = "#57D1C0";
 
 const Colors: { name: string, color: string }[] = [
     {
