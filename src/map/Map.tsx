@@ -3,7 +3,7 @@ import Buildings from "./buildings/buildings";
 import { useState } from "react";
 import Restrooms from "./buildings/restrooms";
 import Restaurants from "./buildings/restaurants";
-import Edges from "./buildings/edges";
+import Edges from "./edges/edges";
 import Transports from "./buildings/transport";
 
 export default function Map() {

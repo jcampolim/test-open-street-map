@@ -1,5 +1,5 @@
 import { Polyline } from "react-leaflet";
-import { Caminhos } from "./mapa";
+import { Caminhos } from "../buildings/mapa";
 
 export default function Edges() {
     const positions: { positions: [number, number][], name: string }[] = Caminhos;
